@@ -16,34 +16,25 @@ body {
   background-color: rgba(252, 250, 250, 0.11);
   height: 90;
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
 }
 
-.loginform {
-  text-align: center;
-  margin: 10;
+ul {
+  margin: 0;
+  float: right;
+  list-style-type: none;
+  color: white;
 }
 
-.label1 {
-  color: #272727;
-  font-size: 50;
+ul li {
+    display: inline-block;
+    color: white;
+    padding: 25px;
 }
 
-.input1 {
-  border-radius: 20px;
-  height: 30;
-  width: 15%;
-}
-
-.label2 {
-  color: #272727;
-  font-size: 50;
-}
-
-.input2 {
-  border-radius: 20px;
-  height: 30;
-  width: 15%;
+ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 @keyframes gradient {
